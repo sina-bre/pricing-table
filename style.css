@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+body {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 4rem;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin: 5rem;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 240, 0.08);
+    transition: all 0.3s ease-in-out;
+    margin: 2rem;
+    padding: 2rem;
+    position: relative;
+    will-change: transform;
+    background-color: white;
+    width: 17rem;  
+}
+.card-heder{
+    padding-top: 0;
+}
+/* .card::after {
+    content: "";
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+    width: 0%;
+    height: 5px;
+    background-color: #57e2b2;
+    transition: .5s;
+} */
+.card:hover {
+    transform: scale(1.10);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+}
+.card:hover::after{
+    width: 100%;
+}
+/* .card-header {
+    background-color: white;
+} */
+.list-items{
+    padding: .25rem;
+    color: #808080;
+    font-weight: 300;
+}
+p{
+    font-size: 7rem;
+    letter-spacing: -0.5rem;
+    margin: 0;
+}
+.dolar {
+    font-size: 2.75rem;
+    position: relative;
+    font-weight: 400;
+    top: -45px;
+    letter-spacing: 0px;
+}
+.month{
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #bebebe;
+}
+.btn{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: rgb(0, 214, 168);
+    color: white;
+    padding: .75rem 1.4rem;
+    letter-spacing: 1px;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+.btn:hover{
+    color: white;
+    background-color: #57e2b2;
+}
+svg {
+    width: 7rem;
+    fill: white;
+    border-radius: 7rem;
+    padding: 2rem;
+    background-color: rgb(0, 214, 168);
+}
+svg:hover{
+    background-color: #57e2b2;
+    fill: white;
+    margin-bottom: 0;
+    
+    
+}
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.ul-list{
+    margin-bottom: 3rem;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: .75rem;
+}
